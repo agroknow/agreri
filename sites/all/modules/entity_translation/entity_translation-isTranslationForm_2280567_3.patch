@@ -1,0 +1,28 @@
+diff --git a/includes/translation.handler.inc b/includes/translation.handler.inc
+index c8aa1bf..593969a 100644
+--- a/includes/translation.handler.inc
++++ b/includes/translation.handler.inc
+@@ -1544,7 +1544,22 @@ class EntityTranslationDefaultHandler implements EntityTranslationHandlerInterfa
+    * Returns TRUE if an entity translation is being edited.
+    */
+   protected function isTranslationForm() {
+-    return !$this->isNewEntity() && $this->getFormLanguage() != $this->getLanguage();
++
++    if ($this->isNewEntity()) {
++      return FALSE;
++    }
++    else {
++      $form_language = $this->getFormLanguage();
++      $entity_language = $this->getLanguage();
++
++      // If either language is undefined, this cannot be a translation.
++      if ($form_language == LANGUAGE_NONE || $entity_language == LANGUAGE_NONE) {
++        return FALSE;
++      }
++      else {
++        return $form_language != $entity_language;
++      }
++    }
+   }
+ 
+   /**
