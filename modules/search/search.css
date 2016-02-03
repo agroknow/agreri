@@ -23,6 +23,7 @@
 }
 .search-results .search-info {
   font-size: 0.85em;
+  display:none;
 }
 .search-advanced .criterion {
   float: left; /* LTR */

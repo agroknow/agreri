@@ -23,13 +23,13 @@ jQuery(function(){
 	});
 	
 	jQuery('.no-row').removeClass('row');
-	jQuery('ul.pager').addClass('pagerblock').removeClass('pager');
+	/*jQuery('ul.pager').addClass('pagerblock').removeClass('pager');*/
 	
 	jQuery('.comment-form #edit-preview').remove();
 	
 	jQuery('.fw_block.wall_wrap > .row').removeClass('row');
 	
-	jQuery('.item-list ul.pager').addClass('pagerblock').removeClass('pager');
+	/*jQuery('.item-list ul.pager').addClass('pagerblock').removeClass('pager');*/
 
 	jQuery('.page-search .pager-next a').html('>');
 	jQuery('.page-search .pager-last a').html('>>');

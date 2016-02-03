@@ -1,0 +1,112 @@
+Index: apachesolr_biblio.admin.inc
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/apachesolr_biblio/apachesolr_biblio.admin.inc,v
+retrieving revision 1.1
+diff -u -F^function -r1.1 apachesolr_biblio.admin.inc
+--- apachesolr_biblio.admin.inc	23 Sep 2009 12:18:20 -0000	1.1
++++ apachesolr_biblio.admin.inc	26 Oct 2009 21:02:41 -0000
+@@ -8,6 +8,12 @@ function apachesolr_biblio_fields_form($
+     '#description' => t('Should authors be indexed? This feature is either on or off. No control is given to index some author types and not others.'),
+     '#default_value' => $defaults['contributors'],
+   );
++  $form['biblio_type'] = array(
++    '#type' => 'checkbox',
++    '#title' => t('Publication Types'),
++    '#description' => t('Should publication types be indexed? This feature is either on or off.'),
++    '#default_value' => $defaults['biblio_type'],
++  );
+ 
+   $fields = apachesolr_biblio_get_raw_fields();
+   $form['configured_flds'] = array('#tree' => 1);
+@@ -59,6 +65,7 @@ function apachesolr_biblio_fields_form($
+ 
+ function theme_apachesolr_biblio_fields_form($form) {
+   $output  = drupal_render($form['contributors']);
++  $output .= drupal_render($form['biblio_type']);
+ 
+   $conf_table = array();
+   foreach (element_children($form['configured_flds']) as $fld) {
+@@ -95,5 +102,6 @@ function apachesolr_biblio_fields_form_s
+     $record->indexed = ($field['checkboxes']['indexed'] == '0' ? 0 : 1);
+     drupal_write_record('apachesolr_biblio_fields', $record);
+     variable_set('apachesolr_biblio_index_authors', $form_state['values']['contributors']);
++    variable_set('apachesolr_biblio_index_biblio_type', $form_state['values']['biblio_type']);
+   }
+ }
+Index: apachesolr_biblio.module
+===================================================================
+RCS file: /cvs/drupal-contrib/contributions/modules/apachesolr_biblio/apachesolr_biblio.module,v
+retrieving revision 1.1
+diff -u -F^function -r1.1 apachesolr_biblio.module
+--- apachesolr_biblio.module	23 Sep 2009 12:18:20 -0000	1.1
++++ apachesolr_biblio.module	26 Oct 2009 21:02:41 -0000
+@@ -40,7 +40,7 @@ function apachesolr_biblio_get_raw_field
+   return $fields;
+ }
+ 
+-// These are the fields as apachesolr_biblio knows abouit them.
++// These are the fields as apachesolr_biblio knows about them.
+ function apachesolr_biblio_get_fields() {
+   // get current settings
+   $result = db_query("SELECT * FROM {apachesolr_biblio_fields");
+@@ -49,6 +49,7 @@ function apachesolr_biblio_get_fields() 
+     $fields[$row['fid']] = $row;
+   }
+   $fields['contributors'] = variable_get('apachesolr_biblio_index_authors', 1);
++  $fields['biblio_type'] = variable_get('apachesolr_biblio_index_biblio_type', 1);
+   return $fields;
+ }
+ 
+@@ -86,6 +87,10 @@ function apachesolr_biblio_apachesolr_up
+       }
+     }
+   }
++  // Handle publication types.
++  if (variable_get('apachesolr_biblio_index_biblio_type', 1)) {
++    $document->setField(apachesolr_biblio_type_key(), apachesolr_clean_text(apachesolr_biblio_type_name($node->biblio_type)));
++  }
+ }
+ 
+ function apachesolr_biblio_format_value($value, $format) {
+@@ -134,6 +139,26 @@ function apachesolr_biblio_format_value(
+ }
+ 
+ /**
++ * Return the name of the specified biblio type.
++ */
++function apachesolr_biblio_type_name($biblio_type) {
++  return db_result(db_query('SELECT name FROM {biblio_types} WHERE tid = %d', $biblio_type));
++}
++
++/**
++ * Return the index name for biblio types.
++ */
++function apachesolr_biblio_type_key() {
++  return apachesolr_index_key(
++    array(
++      'name' => 'biblio_type',
++      'multiple' => FALSE,
++      'index_type' => 'string',
++    )
++  );
++}
++
++/**
+  * Implementation of hook_apachesolr_facets().
+  *
+  * Returns an array keyed by block delta.
+@@ -163,6 +188,14 @@ function apachesolr_biblio_apachesolr_fa
+       'facet_field' => 'sm_biblio_contributors',
+       'content types' => array('biblio'),
+     );
++    // Publication types.
++    $key = apachesolr_biblio_type_key();
++    $facets[$key] = array(
++      'info' => t('Biblio: Filter by Publication Type'),
++      'name' => t('Publication Type'),
++      'facet_field' => $key,
++      'content types' => array('biblio'),
++    );
+   }
+   return $facets;
+ }

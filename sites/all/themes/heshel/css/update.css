@@ -74,18 +74,15 @@ body.logged-in .shortcode_subscribe .subscribe_btn{
 
 /*pager*/
 .pager-current {
-	color:#82b541;
+	color:#FFF;
 	border-color: #ddd;
-	background: #fff;
+	background-color: #82B541;
 	cursor: default;
 	border: 1px solid #ddd;
-	font-size: 12px;
-	width: 28px;
-	height: 28px;
-	line-height: 27px;
-	padding-bottom: 1px;
+	border-radius:15px;
 	text-align: center;
-	-webkit-border-radius: 4px;
+	display:inline-block !important;
+	padding:5px 14px;
 }
 
 .main_header {

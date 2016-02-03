@@ -9,7 +9,6 @@ global $base_url;
 	print $messages;
 	unset($page['content']['system_main']['default_message']);
 ?>
-
 <div class="wrapper">
 	<div class="container">
 		<div class="content_block row no-sidebar">

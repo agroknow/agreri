@@ -28,12 +28,6 @@ function feeds_tamper_truncate_text_form($importer, $element_key, $settings) {
     '#default_value' => isset($settings['ellipses']) ? $settings['ellipses'] : FALSE,
     '#description' => t('Add ellipses (...) to the end of the truncated text.'),
   );
-  $form['wordsafe'] = array(
-    '#type' => 'checkbox',
-    '#title' => t('Truncate on a word boundary'),
-    '#default_value' => isset($settings['wordsafe']) ? $settings['wordsafe'] : FALSE,
-    '#description' => t('Attempt to truncate on a word boundary.'),
-  );
   return $form;
 }
 
@@ -45,10 +39,5 @@ function feeds_tamper_truncate_text_validate($settings) {
 }
 
 function feeds_tamper_truncate_text_callback($result, $item_key, $element_key, &$field, $settings, $source) {
-  if (!empty($settings['wordsafe'])) {
-    $field = truncate_utf8($field, $settings['num_char'], $settings['wordsafe'], $settings['ellipses']);
-  }
-  else {
-    $field = truncate_utf8($field, $settings['num_char'], FALSE, $settings['ellipses']);
-  }
+  $field = truncate_utf8($field, $settings['num_char'], FALSE, $settings['ellipses']);
 }

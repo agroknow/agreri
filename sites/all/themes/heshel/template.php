@@ -36,6 +36,9 @@ function heshel_preprocess_html(&$variables) {
 	if($switcher == 'off'){
 		drupal_add_js(path_to_theme().'/js/demo_panel.js', array('type' => 'file', 'scope' => 'footer'));
 	}
+	if($node->type =='biblio'){
+		drupal_add_js(path_to_theme().'/js/related_load.js');
+	}
 }
 
 // Remove superfish css files.
@@ -73,6 +76,17 @@ function heshel_preprocess_page(&$vars){
 	$status = drupal_get_http_header("status");
 	if($status == "404 Not Found") {
 		$vars['theme_hook_suggestions'][] = 'page__404';
+	}
+	
+	
+	if (isset($vars['node']))
+	{
+		if($vars['node']->type=='biblio') 
+		{
+			//print_r($vars);
+			$vars['theme_hook_suggestions'][] = 'page__biblio';
+			return;
+		}
 	}
 
 
@@ -163,6 +177,3 @@ function heshel_menu_tree__main_menu(array $variables) {
 	return '<div class="sub-nav"><ul class="sub-menu">' . $variables['tree'] . '</ul></div>';
 		
 }
-
-
-
