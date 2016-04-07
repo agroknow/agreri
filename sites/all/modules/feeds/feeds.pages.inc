@@ -327,7 +327,7 @@ function theme_feeds_source_status($v) {
   if (!count($items)) {
     if ($v['count']) {
       if ($v['imported']) {
-        $items[] = t('Last import: @ago ago.', array('@ago' => format_interval(REQUEST_TIME - $v['imported'], 1)));
+        $items[] = t('Last import: @ago Ago.', array('@ago' => format_interval(REQUEST_TIME - $v['imported'], 1)));
       }
       $items[] = t('@count imported items total.', array('@count' => $v['count']));
     }

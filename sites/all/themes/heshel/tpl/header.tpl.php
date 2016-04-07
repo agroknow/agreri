@@ -7,10 +7,13 @@ if(empty($setting_header)){
 	$setting_header = 'type1';
 }
 ?>
+<?php $user_status=user_is_logged_in();?>
 
 <div class="main_header <?php print $setting_header;?>">
 	<div class="tagline">
 		<div class="container">
+                      	<?php if($user_status==true){
+                        print '<a href="/user/logout" style="color:#3d9b2f; font-weight:400; font-size:14px;">Logout</a>';}?>
 			<div class="fright">
 				<div class="tagline_items">
 					<div class="log_in_out">
@@ -42,6 +45,7 @@ if(empty($setting_header)){
 					<?php endif; ?>
 				</div>
 			</div>
+	
 			<?php  if($page['header_info']):?>
 				<div class="fleft">
 					<?php print render($page['header_info']); ?>

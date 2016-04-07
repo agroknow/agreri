@@ -50,12 +50,19 @@ function feeds_tamper_copy_form($importer, $element_key, $settings) {
 }
 
 function feeds_tamper_copy_callback($result, $item_key, $element_key, &$field, $settings, $source) {
+	
   switch ($settings['to_from']) {
     case 'to':
       $result->items[$item_key][$settings['source']] = $field;
       return;
     case 'from':
-      $field = $result->items[$item_key][$settings['source']];
+		$field=str_replace("\t","",$field);
+		$field=str_replace("\r","",$field);
+		$field=str_replace("\n","",$field);
+		//$field=str_replace(" ","",$field);
+		//$field="|".$field."|";
+		if($field=="" || !isset($field) || empty($field) || $field==" ")
+			$field = $result->items[$item_key][$settings['source']];
       return;
   }
 }

@@ -15,6 +15,18 @@ function apachesolr_biblio_fields_form($form, $form_state) {
     '#description' => t('Should authors be indexed? This feature is either on or off. No control is given to index some author types and not others.'),
     '#default_value' => $defaults['contributors'],
   );
+  $form['biblio_type'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Publication Types'),
+    '#description' => t('Should publication types be indexed? This feature is either on or off.'),
+    '#default_value' => $defaults['biblio_type'],
+  );
+  $form['biblio_type'] = array(
+    '#type' => 'checkbox',
+    '#title' => t('Publication Types'),
+    '#description' => t('Should publication types be indexed? This feature is either on or off.'),
+    '#default_value' => $defaults['biblio_type'],
+  );
 
   $fields = _apachesolr_biblio_get_raw_fields();
   $form['configured_flds'] = array('#tree' => 1);

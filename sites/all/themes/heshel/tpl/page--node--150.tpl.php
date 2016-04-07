@@ -4,7 +4,7 @@ global $base_url;
 <?php if(substr($title,0,1) != "_") { ?>
 <h2 class="title" style="text-align:center; padding-top:20px; padding-bottom:20px;">
 <a href="<?php print $node_url?>">
-<?php print $title?></a></h2> <?php
+</a></h2> <?php
     } ?>
 <?php
         if (!empty($tabs['#primary']) || !empty($tabs['#secondary'])):

@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2" xmlns:dcterms="http://purl.org/dc/terms/">
+
+<ags:resource ags:ARN="XF2006443143">
+		<dc:title xml:lang="en">Mobilizing the potential of rural and agricultural extension</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Christoplos, I.</ags:creatorPersonal>
+			<ags:creatorCorporate>FAO, Rome (Italy). Office of Knowledge Exchange, Research and Extension</ags:creatorCorporate>
+			<ags:creatorCorporate>Global Forum for Rural Advisory Services, Lindau (Switzerland)</ags:creatorCorporate>
+			<ags:creatorCorporate>AGS</ags:creatorCorporate>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>FAO/GFRAS</ags:publisherName>
+			<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2010</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">C20</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E10</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E14</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">C10</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL EXTENSION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">EXTENSION ACTIVITIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RURAL DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">DIFFUSION OF INFORMATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">COMMUNICATION TECHNOLOGY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL RESEARCH</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL EDUCATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INFORMATION SYSTEMS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS ORGANIZATIONS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FOOD SECURITY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">POVERTY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CLIMATIC CHANGE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUSTAINABILITY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">VULGARISATION AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">VULGARISATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT RURAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DIFFUSION DE L'INFORMATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">TECHNIQUE DE COMMUNICATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">RECHERCHE AGRONOMIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">EDUCATION AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">SYSTEME D'INFORMATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ORGANISATION PAYSANNE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">SECURITE ALIMENTAIRE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PAUVRETE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CHANGEMENT CLIMATIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DURABILITE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EXTENSION AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EXTENSION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO RURAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DIFUSION DE INFORMACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">TECNOLOGIA DE COMUNICACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INVESTIGACION AGRARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EDUCACION AGRARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SISTEMAS DE INFORMACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ORGANIZACIONES DE AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SEGURIDAD ALIMENTARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POBREZA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CAMBIO CLIMATICO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SOSTENIBILIDAD</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>col. illus.</ags:descriptionNotes>
+		</dc:description>
+		<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.fao.org/docrep/012/i1444e/i1444e00.htm]]></dc:identifier>
+		<dc:identifier scheme="ags:JN">I1444</dc:identifier>
+		<dc:type>M</dc:type>
+		<dc:format>
+			<dcterms:extent>58 p.</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>443143</ags:availabilityNumber>
+		</agls:availability>
+		<agls:availability>
+			<ags:availabilityLocation><![CDATA[RNE]]></ags:availabilityLocation>
+			<ags:availabilityNumber><![CDATA[MON/22.2/FAO.10/67]]></ags:availabilityNumber>
+		</agls:availability>
+	</ags:resource>
+<ags:resource ags:ARN="XF2006441247">
+		<dc:title xml:lang="en">Farm support policies that minimize global distortionary effects: a synthesis</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Elbehri, A.</ags:creatorPersonal>
+			<ags:creatorPersonal>Sarris, A.</ags:creatorPersonal>
+			<ags:creatorCorporate>FAO, Rome (Italy). Trade and Markets Div.</ags:creatorCorporate>
+			<ags:creatorCorporate>EST</ags:creatorCorporate>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>FAO</ags:publisherName>
+			<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2009</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">E21</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E71</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FOOD SECURITY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">GLOBALIZATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FOOD PRODUCTION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUPPORT MEASURES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MARKET RESEARCH</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RISK MANAGEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">BIOFUELS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INVESTMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CLIMATIC CHANGE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">SECURITE ALIMENTAIRE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">MONDIALISATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PRODUCTION ALIMENTAIRE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE SOUTIEN</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ETUDE DE MARCHE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">GESTION DU RISQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">BIOCARBURANT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">INVESTISSEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CHANGEMENT CLIMATIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PAYS DEVELOPPE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SEGURIDAD ALIMENTARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">GLOBALIZACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PRODUCCION ALIMENTARIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE SOSTENIMIENTO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INVESTIGACION DE MERCADOS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">GESTION DE RIESGOS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">BIOCARBURANTE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INVERSIONES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CAMBIO CLIMATICO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PAISES DESARROLLADOS</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>Summary (En)</ags:descriptionNotes>
+			<ags:descriptionNotes>Summary</ags:descriptionNotes>
+		</dc:description>
+		<dc:identifier scheme="ags:ISBN">978-92-5-106388-0</dc:identifier>
+		<dc:identifier scheme="ags:JN">I1098</dc:identifier>
+		<dc:identifier scheme="dcterms:URI"><![CDATA[ftp://ftp.fao.org/docrep/fao/012/i1098e/i1098e02.pdf]]></dc:identifier>
+		<dc:type>M</dc:type>
+		<dc:format>
+			<dcterms:extent>p. 9-39</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<dc:relation>
+			<dcterms:isPartOf scheme="ags:ARN">441245</dcterms:isPartOf>
+		</dc:relation>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>441247</ags:availabilityNumber>
+		</agls:availability>
+		<dc:source>Non-distorting farm support to enhance global food production/ Elbehri, A. (ed.); Sarris, A. (ed.). FAO, Rome (Italy). Trade and Markets Div., 978-92-5-106388-0, I1098</dc:source>
+		<dc:coverage>
+			<dcterms:spatial scheme="ags:AGROVOC" xml:lang="en">DEVELOPED COUNTRIES</dcterms:spatial>
+		</dc:coverage>
+	</ags:resource>
+<ags:resource ags:ARN="XF2006441259">
+		<dc:title xml:lang="en">Policies affecting agricultural incentives in developing countries</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Anderson, K.</ags:creatorPersonal>
+			<ags:creatorCorporate>FAO, Rome (Italy). Trade and Markets Div.</ags:creatorCorporate>
+			<ags:creatorCorporate>EST</ags:creatorCorporate>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>FAO</ags:publisherName>
+			<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2009</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">E71</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E21</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INCENTIVES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL PRODUCTS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RURAL AREAS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUPPORT MEASURES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INTERNATIONAL TRADE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">INCITATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PRODUIT AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ZONE RURALE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE SOUTIEN</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">COMMERCE INTERNATIONAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PAYS EN DEVELOPPEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INCENTIVOS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PRODUCTOS AGRICOLAS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ZONAS RURALES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE SOSTENIMIENTO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">COMERCIO INTERNACIONAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PAISES EN DESARROLLO</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:identifier scheme="ags:ISBN">978-92-5-106388-0</dc:identifier>
+		<dc:identifier scheme="ags:JN">I1098</dc:identifier>
+		<dc:identifier scheme="dcterms:URI"><![CDATA[ftp://ftp.fao.org/docrep/fao/012/i1098e/i1098e14.pdf]]></dc:identifier>
+		<dc:type>M</dc:type>
+		<dc:format>
+			<dcterms:extent>p. 261-284</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<dc:relation>
+			<dcterms:isPartOf scheme="ags:ARN">441245</dcterms:isPartOf>
+		</dc:relation>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>441259</ags:availabilityNumber>
+		</agls:availability>
+		<dc:source>Non-distorting farm support to enhance global food production/ Elbehri, A. (ed.); Sarris, A. (ed.). FAO, Rome (Italy). Trade and Markets Div., 978-92-5-106388-0, I1098</dc:source>
+		<dc:coverage>
+			<dcterms:spatial scheme="ags:AGROVOC" xml:lang="en">DEVELOPING COUNTRIES</dcterms:spatial>
+		</dc:coverage>
+	</ags:resource>
+<ags:resource ags:ARN="XF2006444411">
+		<dc:title xml:lang="en">Expert consultation on contract farming in Africa, Johannesburg, South Africa, 4-7 May 2009</dc:title>
+		<dc:title>
+			<ags:titleSupplement xml:lang="en">Workshop report</ags:titleSupplement>
+		</dc:title>
+		<dc:creator>
+			<ags:creatorCorporate>FAO, Rome (Italy). Rural Infrastructure and Agro-Industries Division</ags:creatorCorporate>
+			<ags:creatorCorporate>National Agricultural Marketing Council, Pretoria (South Africa)</ags:creatorCorporate>
+			<ags:creatorCorporate>AGS</ags:creatorCorporate>
+			<ags:creatorConference>Workshop on Contract Farming in Africa, Johannesburg (South Africa), 4-7 May 2009</ags:creatorConference>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>FAO</ags:publisherName>
+			<ags:publisherPlace>(Rome) (Italy)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>May 2009</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">E20</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E14</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CONTRACT FARMING</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUSTAINABILITY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">REGULATIONS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">COOPERATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INFRASTRUCTURE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ECONOMIC DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">STAKEHOLDERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">EVALUATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTURE CONTRACTUELLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DURABILITE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">REGLEMENTATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">COOPERATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">INFRASTRUCTURE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT ECONOMIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PARTIE INTERESSEE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">EVALUATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AFRIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTURA CONTRACTUAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SOSTENIBILIDAD</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">REGLAMENTACIONES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">COOPERACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INFRAESTRUCTURA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO ECONOMICO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGENTES INTERESADOS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EVALUACION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AFRICA</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>Summary (En)</ags:descriptionNotes>
+			<ags:descriptionNotes>E</ags:descriptionNotes>
+		</dc:description>
+		<dc:type>M</dc:type>
+		<dc:format>
+			<dcterms:extent>48 p.</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>444411</ags:availabilityNumber>
+		</agls:availability>
+		<dc:coverage>
+			<dcterms:spatial scheme="ags:AGROVOC" xml:lang="en">AFRICA</dcterms:spatial>
+		</dc:coverage>
+	</ags:resource>
+<ags:resource ags:ARN="XF2008436337">
+		<dc:title xml:lang="en">Fuelling exclusion? The biofuels boom and poor people's access to land</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Cotula, L.</ags:creatorPersonal>
+			<ags:creatorPersonal>Dyer, N.</ags:creatorPersonal>
+			<ags:creatorPersonal>Vermeulen, S.</ags:creatorPersonal>
+			<ags:creatorCorporate>International Inst. for Environment and Development, London (United Kingdom)</ags:creatorCorporate>
+			<ags:creatorCorporate>FAO, Rome (Italy)</ags:creatorCorporate>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>IIED/FAO</ags:publisherName>
+			<ags:publisherPlace>London (United Kingdom)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2008</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">P06</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FUEL CROPS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">BIOFUELS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PRODUCTION POSSIBILITIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND ACCESS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LAND USE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TENURE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">POVERTY</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RURAL POPULATION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RURAL DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PRODUCTION POLICIES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PLANTE ENERGETIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">BIOCARBURANT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POSSIBILITE DE PRODUCTION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ACCES A LA TERRE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">UTILISATION DES TERRES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">MODE DE FAIRE-VALOIR</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PAUVRETE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POPULATION RURALE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT RURAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE LA PRODUCTION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PAYS EN DEVELOPPEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CULTIVOS ENERGETICOS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">BIOCARBURANTE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PRODUCCION POTENCIAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ACCESO A LA TIERRA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">UTILIZACION DE LA TIERRA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">TENENCIA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POBREZA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POBLACION RURAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO RURAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE PRODUCCION</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PAISES EN DESARROLLO</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>Summary (En)Printed and electronic ed. Includes bibliography</ags:descriptionNotes>
+			<ags:descriptionNotes>E</ags:descriptionNotes>
+		</dc:description>
+		<dc:identifier scheme="ags:ISBN">978-1-84369-702-2</dc:identifier>
+		<dc:identifier scheme="dcterms:URI"><![CDATA[http://www.iied.org/pubs/pdfs/12551IIED.pdf]]></dc:identifier>
+		<dc:type>D</dc:type>
+		<dc:format>
+			<dcterms:extent>72 p.</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>436337</ags:availabilityNumber>
+		</agls:availability>
+		<agls:availability>
+			<ags:availabilityLocation>LIB;FOL</ags:availabilityLocation>
+			<ags:availabilityNumber><![CDATA[662 C82(E)]]></ags:availabilityNumber>
+		</agls:availability>
+		<dc:coverage>
+			<dcterms:spatial scheme="ags:AGROVOC" xml:lang="en">DEVELOPING COUNTRIES</dcterms:spatial>
+		</dc:coverage>
+	</ags:resource>
+<ags:resource ags:ARN="XF2007432061">
+<dc:title xml:lang="en">The growing role of contract farming in agri-foodsystems development:drivers,theory and practice</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Silva, C.A.B. da</ags:creatorPersonal>
+<ags:creatorCorporate>Asian Productivity Organization, Tokyo (Japan)</ags:creatorCorporate>
+<ags:creatorCorporate>ES</ags:creatorCorporate>
+<ags:creatorConference>Sustainable Contract Farming for Increased Competitiveness, Colombo (Sri Lanka), Jul 2005</ags:creatorConference>
+</dc:creator>
+<dc:publisher>
+<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+</dc:publisher>
+<dc:date><dcterms:dateIssued>Jul 2005</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">E20</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E14</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E21</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CONTRACT FARMING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUSTAINABILITY</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">EVALUATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGROINDUSTRIAL SECTOR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL DEVELOPMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ECONOMIC DEVELOPMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTURE CONTRACTUELLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DURABILITE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">EVALUATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">SECTEUR AGROINDUSTRIEL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT ECONOMIQUE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTURA CONTRACTUAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SOSTENIBILIDAD</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EVALUACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SECTOR AGROINDUSTRIAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO ECONOMICO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>Summary (En)</ags:descriptionNotes>
+<ags:descriptionNotes>E</ags:descriptionNotes>
+</dc:description>
+<dc:identifier scheme="dcterms:URI">ftp://ftp.fao.org/docrep/fao/010/ah924e/ah924e00.pdf</dc:identifier>
+<dc:identifier scheme="ags:JN">AH924</dc:identifier>
+<dc:type>V</dc:type>
+<dc:format><dcterms:extent>1 website</dcterms:extent>
+<dcterms:medium>Web resource</dcterms:medium></dc:format>
+<dc:language>English</dc:language>
+<agls:availability><ags:availabilityLocation>FAO</ags:availabilityLocation>
+<ags:availabilityNumber>432061</ags:availabilityNumber></agls:availability>
+<dc:rights><ags:rightsStatement>Not on behalf of FAO</ags:rightsStatement></dc:rights></ags:resource>
+<ags:resource ags:ARN="XF2000392509">
+<dc:title xml:lang="en">From farmer to planner and back: harvesting best practices. v. 1: Case studies Latin America and Asia.- v. 2: Case studies Africa and Near East.- (Annex 1): Welcome to package.- (Annex 2): The responsive planner and key issues from ten case studies.- (Annex 3): Training for responsive planning</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Koopman, J.</ags:creatorPersonal>
+<ags:creatorPersonal>Wilde, V.</ags:creatorPersonal>
+<ags:creatorCorporate>FAO, Rome (Italy). Sustainable Development Dept.</ags:creatorCorporate>
+</dc:creator>
+<dc:publisher><ags:publisherName>FAO</ags:publisherName>
+<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>2000-2001</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">F01</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E10</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SOCIAL PARTICIPATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANNING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL DEVELOPMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MEN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">WOMEN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">DIFFUSION OF INFORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">DECISION MAKING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">CASE STUDIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">RAPID RURAL APPRAISAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PARTICIPATION SOCIALE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PLANIFICATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DÉVELOPPEMENT AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">HOMME</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">FEMME</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DIFFUSION DE L'INFORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PRISE DE DÉCISION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ÉTUDE DE CAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DIAGNOSTIC RURAL RAPIDE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PARTICIPACIÓN SOCIAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PLANIFICACIÓN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO AGRÍCOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">HOMBRES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">MUJERES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DIFUSIÓN DE INFORMACIÓN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">TOMA DE DECISIONES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLÍTICA AGRÍCOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ESTUDIOS DE CASOS PRÁCTICOS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DIAGNÓSTICO RURAL RÁPIDO</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>A HREFEnglish/A;A HREFEnglish/A;A HREFEnglish/A;A HREFEnglish/A;</ags:descriptionNotes>
+</dc:description>
+<dc:format><dcterms:extent>2 v., 3 annexes in holder</dcterms:extent></dc:format>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>XF</ags:availabilityLocation><ags:availabilityNumber>2000392509</ags:availabilityNumber></agls:availability>
+</ags:resource>
+<ags:resource ags:ARN="XF9548211">
+<dc:title xml:lang="en">Strengthening agricultural marketing training in Mali and Burkina Faso</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Dione, J.</ags:creatorPersonal>
+<ags:creatorCorporate>FAO, Rome (Italy). Agricultural Services Div.</ags:creatorCorporate>
+</dc:creator>
+<dc:publisher><ags:publisherPlace>[Rome] (Italy)</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>1988</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">C10</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E70</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MALI</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">BURKINA FASO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRAINING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MARKETING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL SECTOR/ AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">STATE INTERVENTION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">HUMAN RESOURCES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LABOUR REQUIREMENTS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRAINING CENTRES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRAINING PROGRAMMES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">MANAGEMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">MALI</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">BURKINA FASO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">FORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">COMMERCIALISATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">SECTEUR AGRICOLE/ POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">INTERVENTION DE L'ETAT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">RESSOURCE HUMAINE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">BESOIN EN MAIN D'OEUVRE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CENTRE DE FORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PROGRAMME DE FORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">GESTION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">MALI</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">BURKINA FASO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CAPACITACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">MERCADEO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">SECTOR AGRARIO/ POLITICA AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">INTERVENCION ESTATAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">RECURSOS HUMANOS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DEMANDA DE TRABAJO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CENTROS DE CAPACITACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PROGRAMAS DE CAPACITACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">GESTION</ags:subjectThesaurus>
+</dc:subject>
+<dc:type>V</dc:type>
+<dc:format><dcterms:extent>vp. (loose leaves)</dcterms:extent></dc:format>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>*FAO Accession No: XF95:348211 (Available on Microfiche)</ags:availabilityLocation><ags:availabilityNumber>9548211</ags:availabilityNumber></agls:availability>
+</ags:resource>
+<ags:resource ags:ARN="XF9548483">
+<dc:title xml:lang="en">A global strategy for integrated pest management: results of an international meeting</dc:title>
+<dc:creator>
+<ags:creatorPersonal>De Borhegyi, I.</ags:creatorPersonal>
+</dc:creator>
+<dc:date>
+<dcterms:dateIssued>(1993)</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">H10</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INTEGRATED PEST MANAGEMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANT PROTECTION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PESTICIDES/ DEVELOPMENT PROJECTS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ORYZA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INTERNATIONAL COOPERATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRAINING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">ASIA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">LUTTE INTEGREE ANTIRAVAGEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PROTECTION DES PLANTES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PESTICIDE/ PROJET DE DEVELOPPEMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ORYZA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">COOPERATION INTERNATIONALE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">FORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ASIE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">GESTION DE LUCHA INTEGRADA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PROTECCION DE LAS PLANTAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PLAGUICIDAS/ PROYECTOS DE DESARROLLO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ORYZA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">COOPERACION INTERNACIONAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CAPACITACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ASIA</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>Summaries (En, Es, Fr)</ags:descriptionNotes>
+</dc:description>
+<dc:type>E</dc:type>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>*FAO Accession No: XF95:348483 (Available on Microfiche)</ags:availabilityLocation><ags:availabilityNumber>9548483</ags:availabilityNumber></agls:availability>
+<ags:citation><ags:citationTitle>FAO Plant Protection Bulletin (FAO)</ags:citationTitle>
+<ags:citationTitle>Bulletin Phytosanitaire de la FAO (FAO); Boletin Fitosanitario de la FAO (FAO)</ags:citationTitle>
+<ags:citationIdentifier scheme="ags:ISSN">0254-9727</ags:citationIdentifier>
+<ags:citationNumber>v. 41(3-4) p. 151-153</ags:citationNumber>
+<ags:citationChronology>(1993)</ags:citationChronology>
+</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="XF9548485">
+<dc:title xml:lang="en">Development and application of IPM [Integrated Pest Management] on vegetables in Africa: highlights of a regional seminar</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Ikin, R.</ags:creatorPersonal>
+<ags:creatorPersonal>Schulten, G.G.M.</ags:creatorPersonal>
+<ags:creatorPersonal>De Borhegyi, I.</ags:creatorPersonal>
+</dc:creator>
+<dc:date>
+<dcterms:dateIssued>(1993)</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">H10</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">H20</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">VEGETABLE CROPS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">INTEGRATED PEST MANAGEMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AFRICA/ PEST INSECTS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANT DISEASES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PESTICIDES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PLANT PRODUCTION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">TRAINING</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PLANTE LEGUMIERE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">LUTTE INTEGREE ANTIRAVAGEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AFRIQUE/ INSECTE NUISIBLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">MALADIE DES PLANTES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PESTICIDE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PRODUCTION VEGETALE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">FORMATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">HORTALIZAS (PLANTAS)</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">GESTION DE LUCHA INTEGRADA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AFRICA/ INSECTOS DANINOS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ENFERMEDADES DE LAS PLANTAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PLAGUICIDAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PRODUCCION VEGETAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CAPACITACION</ags:subjectThesaurus>
+</dc:subject>
+<dc:description><ags:descriptionNotes>Summaries (En, Es, Fr)</ags:descriptionNotes>
+</dc:description>
+<dc:type>E</dc:type>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>*FAO Accession No: XF95:348485 (Available on Microfiche)</ags:availabilityLocation><ags:availabilityNumber>9548485</ags:availabilityNumber></agls:availability>
+<ags:citation><ags:citationTitle>FAO Plant Protection Bulletin (FAO)</ags:citationTitle>
+<ags:citationTitle>Bulletin Phytosanitaire de la FAO (FAO); Boletin Fitosanitario de la FAO (FAO)</ags:citationTitle>
+<ags:citationIdentifier scheme="ags:ISSN">0254-9727</ags:citationIdentifier>
+<ags:citationNumber>v. 41(3-4) p. 154-160</ags:citationNumber>
+<ags:citationChronology>(1993)</ags:citationChronology>
+</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="XF9434055">
+<dc:title xml:lang="en">Organization and management of agricultural development for small farmers. Issues in decentralization and small farmers' participation</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Howell, J.</ags:creatorPersonal>
+<ags:creatorPersonal>Cox, T.</ags:creatorPersonal>
+</dc:creator>
+<dc:publisher><ags:publisherName>FAO</ags:publisherName>
+<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>1992</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">E14</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E20</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SMALL FARMS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL DEVELOPMENT/ ADMINISTRATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">DECENTRALIZATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUPPORT MEASURES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARM HELPER SERVICES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS ASSOCIATIONS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PETITE EXPLOITATION AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT AGRICOLE/ ADMINISTRATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DECENTRALISATION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE SOUTIEN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ENTRAIDE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ASSOCIATION D'AGRICULTEURS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EXPLOTACION EN PEQUENA ESCALA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO AGRICOLA/ ADMINISTRACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESCENTRALIZACION</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE SOSTENIMIENTO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">MUTUALIDAD AGRARIA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ASOCIACIONES DE AGRICULTORES</ags:subjectThesaurus>
+</dc:subject>
+<dc:identifier scheme="ags:ISBN">92-5-103133-9</dc:identifier>
+<dc:format><dcterms:extent>69 p.</dcterms:extent></dc:format>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>*FAO Accession No: XF94:334055 (Available on Microfiche)</ags:availabilityLocation><ags:availabilityNumber>9434055</ags:availabilityNumber></agls:availability>
+<ags:citation><ags:citationTitle>Estudio FAO: Desarrollo Economico y Social (FAO)</ags:citationTitle>
+<ags:citationIdentifier scheme="ags:ISSN">1014-5168</ags:citationIdentifier>
+<ags:citationNumber>no. 20(Rev. 1)</ags:citationNumber>
+</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="XF9210181">
+<dc:title xml:lang="en">Support services for farmers and landowners</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Stringer, R.</ags:creatorPersonal>
+<ags:creatorConference>International Colloquium on Agrarian Reform: Focus on the Philippine Comprehensive Agrarian Reform Program, Quezon City (Philippines), 26-30 Mar 1990</ags:creatorConference>
+</dc:creator>
+<dc:publisher><ags:publisherName>[npub]</ags:publisherName>
+<ags:publisherPlace>[np]</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>1990</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">E13</ags:subjectClassification>
+<ags:subjectClassification scheme="ags:ASC">E11</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">PHILIPPINES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">LANDOWNERS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUPPORT MEASURES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRARIAN REFORM/ AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">DEVELOPMENT POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PHILIPPINES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AGRICULTEUR</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PROPRIETAIRE FONCIER</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE SOUTIEN</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">REFORME AGRAIRE/ POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE DE DEVELOPPEMENT</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">FILIPINAS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">PROPIETARIOS RURALES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE SOSTENIMIENTO</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">REFORMA AGRARIA/ POLITICA AGRICOLA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA DE DESARROLLO</ags:subjectThesaurus>
+</dc:subject>
+<dc:description>
+<ags:descriptionNotes>FAO Accession No: XF92:310181 (Available on Microfiche)</ags:descriptionNotes>
+</dc:description>
+<dc:type>K</dc:type>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<dc:relation><dcterms:isPartOf scheme="ags:ISBN">971-110-097-5</dcterms:isPartOf>
+</dc:relation>
+<agls:availability><ags:availabilityLocation>XF</ags:availabilityLocation><ags:availabilityNumber>9210181</ags:availabilityNumber></agls:availability>
+<dc:source>International issues in agrarian reform: past experiences, future prospects. Report, FAO, Rome (Italy). Human Resources, Institutions and Agrarian Reform Div.; Department of Agrarian Reform, Quezon City (Philippines); Philippines Univ., Los Banos, Laguna (Philippines). Inst. of Agrarian Studies; Asian NGO Coalition for Agrarian Reform and Rural Development, Metro Manila (Philippines).- [np]: [npub], 1990.- ISBN 971-110-097-5. p. 134-143</dc:source>
+</ags:resource>
+<ags:resource ags:ARN="XF8983141">
+<dc:title xml:lang="en">Production, power and participation in rural Thailand. Experiences of poor farmers' groups</dc:title>
+<dc:creator>
+<ags:creatorPersonal>Turton, A.</ags:creatorPersonal>
+</dc:creator>
+<dc:publisher><ags:publisherName>UNRISD</ags:publisherName>
+<ags:publisherPlace>Geneva (Switzerland)</ags:publisherPlace>
+</dc:publisher>
+<dc:date>
+<dcterms:dateIssued>1987</dcterms:dateIssued>
+</dc:date>
+<dc:subject>
+<ags:subjectClassification scheme="ags:ASC">E50</ags:subjectClassification>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">THAILAND</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FARMERS ASSOCIATIONS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SOCIAL CONSCIOUSNESS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SMALL SCALE FARMING/ PRODUCTIVITY</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL POLICIES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">THAILANDE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ASSOCIATION D'AGRICULTEURS</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CONSCIENCE SOCIALE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">PETITE EXPLOITATION/ PRODUCTIVITE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">POLITIQUE AGRICOLE</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">TAILANDIA</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ASOCIACIONES DE AGRICULTORES</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CONCIENCIA SOCIAL</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EXPLOTACION EN PEQUENA ESCALA/ PRODUCTIVIDAD</ags:subjectThesaurus>
+<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">POLITICA AGRICOLA</ags:subjectThesaurus>
+</dc:subject>
+<dc:format><dcterms:extent>132 p.</dcterms:extent></dc:format>
+<dc:language scheme="ags:ISO639-1">En</dc:language>
+<agls:availability><ags:availabilityLocation>XF</ags:availabilityLocation><ags:availabilityNumber>8983141</ags:availabilityNumber></agls:availability>
+<ags:citation><ags:citationTitle>Report (UNRISD)</ags:citationTitle>
+<ags:citationNumber>no. 86/11</ags:citationNumber>
+</ags:citation>
+</ags:resource>
+<ags:resource ags:ARN="XF2015002022">
+	<dc:title><![CDATA[The owner cultivator in a progressive agriculture]]></dc:title>
+	<dc:title>
+		<dcterms:alternative><![CDATA[El propietario coltivador en la agricultura moderna]]></dcterms:alternative>
+		<dcterms:alternative><![CDATA[Faire-valoir direct - Le proprietaire exploitant dans l'agriculture moderne]]></dcterms:alternative>
+	</dc:title>
+	<dc:creator>
+		<ags:creatorPersonal><![CDATA[PARSONS KH]]></ags:creatorPersonal>
+	</dc:creator>
+	<dc:date><dcterms:dateIssued><![CDATA[1958]]></dcterms:dateIssued></dc:date>
+	<dc:subject>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[AGRICULTORES]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[INVESTISSEMENT]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[DESARROLLO ECONOMICO]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[AGRICULTURA]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[FARM MANAGEMENT]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[MANEJO DE FINCAS]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[TENENCIA]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[PROPIEDAD PRIVADA]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[TAILLE DE L'EXPLOITATION AGRICOLE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[FARM SIZE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[AGRICULTURE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[AGRICULTURAL POLICIES]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[AGRICULTEUR]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[GESTION DE L'EXPLOITATION AGRICOLE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[DEVELOPPEMENT ECONOMIQUE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[PROPRIETE PRIVEE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[PRIVATE OWNERSHIP]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[POLITICA AGRICOLA]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[TENURE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[INVERSIONES]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[FARMERS]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[MODE DE FAIRE VALOIR]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fre"><![CDATA[POLITIQUE AGRICOLE]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[ECONOMIC DEVELOPMENT]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="esp"><![CDATA[TAMANO DE LA FINCA]]></ags:subjectThesaurus>
+		<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="eng"><![CDATA[INVESTMENT]]></ags:subjectThesaurus>
+	</dc:subject>
+	<dc:description>
+		<ags:descriptionNotes><![CDATA[English French Spanish]]></ags:descriptionNotes></dc:description>
+	<dc:format><dcterms:medium><![CDATA[text]]></dcterms:medium></dc:format>
+	<dc:format><dcterms:extent><![CDATA[microfiche]]></dcterms:extent></dc:format>
+	<dc:language scheme="dcterms:ISO639-2"><![CDATA[fre]]></dc:language>
+	<dc:language scheme="dcterms:ISO639-2"><![CDATA[eng]]></dc:language>
+	<dc:language scheme="dcterms:ISO639-2"><![CDATA[spa]]></dc:language>
+</ags:resource>
+</ags:resources> 

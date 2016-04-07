@@ -2,11 +2,13 @@
 
 global $base_url;
 ?>
-<?php $alias = drupal_get_path_alias(str_replace('/edit','',$_GET['q']));
-$parts = explode('/', $alias); ?>
+<?php
+        global $language ;
+        $lang = $language->language ;
+?>
 
 <?php if ($breadcrumb): ?>
-<?php if ($parts[0] == 'en'): ?>
+<?php if ($lang == 'en'): ?>
 <div class="breadcrumbs type2">
         <div class="container">
 		<?php print str_replace('<i class="fa fa-angle-right"></i>',
@@ -14,7 +16,7 @@ $parts = explode('/', $alias); ?>
 	</div>
 </div>
 <?php endif; ?>
-<?php if($parts[0] == 'gr'): ?>
+<?php if($lang == 'el'): ?>
 <div class="breadcrumbs type2">
         <div class="container">
                 <?php print str_replace('<i class="fa fa-angle-right"></i>',

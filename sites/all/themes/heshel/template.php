@@ -36,9 +36,6 @@ function heshel_preprocess_html(&$variables) {
 	if($switcher == 'off'){
 		drupal_add_js(path_to_theme().'/js/demo_panel.js', array('type' => 'file', 'scope' => 'footer'));
 	}
-	if($node->type =='biblio'){
-		drupal_add_js(path_to_theme().'/js/related_load.js');
-	}
 }
 
 // Remove superfish css files.
@@ -50,6 +47,46 @@ function heshel_css_alter(&$css) {
 
 
 function heshel_form_alter(&$form, &$form_state, $form_id) {
+	if ($form_id=="search_api_page_search_form") {
+           $form['form']['keys_1']['#title'] = t('Search'); // Change the text on the label element
+           $form['form']['keys_1']['#title_display'] = 'invisible'; // Toggle label visibilty
+           $form['form']['keys_1']['#size'] = 40;  // define size of the textfield
+           $form['form']['keys_1']['#default_value'] = t('Type your search terms here...'); // Set a default value for the textfield
+           $form['form']['submit_1']['#value'] = t('Search'); // Change the text on the submit button
+           $form['form']['submit_1']['#prefix'] = '<a class="btn_type5">';
+           $form['form']['submit_1']['#suffix'] = '</a>';
+           //$form['form']['submit_1']['#markup'] = '<i class="icon-search"></i> Search';    
+
+           // Add extra attributes to the text box
+           $form['form']['keys_1']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Type your search terms here...';}";
+           $form['form']['keys_1']['#attributes']['onfocus'] = "if (this.value == 'Type your search terms here...') {this.value = '';}";
+
+           // Prevent user from searching the default text
+           $form['#attributes']['onsubmit'] = "if(this.keys_1.value=='Type your search terms here...'){ alert('Please enter a term!'); return false; }";
+           $form['form']['keys_1']['#attributes']['placeholder'] = t('Type your search terms here...');
+               //krumo($form);
+        }
+	if ($form_id=="search_api_page_search_form") {
+           $form['form']['keys_2']['#title'] = t('Search'); // Change the text on the label element
+           $form['form']['keys_2']['#title_display'] = 'invisible'; // Toggle label visibilty
+           $form['form']['keys_2']['#size'] = 40;  // define size of the textfield
+           $form['form']['keys_2']['#default_value'] = t('Type your search terms here...'); // Set a default value for the textfield
+           
+		   $form['form']['submit_2']['#value'] = t('Search'); // Change the text on the submit button
+           //$form['form']['submit_2']['#prefix'] = '<a class="btn_type5">';
+           //$form['form']['submit_2']['#suffix'] = '</a>';
+           //$form['form']['submit_2']['#markup'] = '<i class="icon-search"></i> Search';    
+
+           // Add extra attributes to the text box
+           $form['form']['keys_2']['#attributes']['onblur'] = "if (this.value == '') {this.value = 'Type your search terms here...';}";
+           $form['form']['keys_2']['#attributes']['onfocus'] = "if (this.value == 'Type your search terms here...') {this.value = '';}";
+
+           // Prevent user from searching the default text
+           $form['#attributes']['onsubmit'] = "if(this.keys_2.value=='Type your search terms here...'){ alert('Please enter a term!'); return false; }";
+           $form['form']['keys_2']['#attributes']['placeholder'] = t('Type your search terms here...');
+               //krumo($form);
+        }
+
 	if ($form_id == 'search_block_form') {
 		$form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
 		//$form['search_block_form']['#default_value'] = t('Search'); // Set a default value for the textfield
@@ -83,15 +120,13 @@ function heshel_preprocess_page(&$vars){
 	{
 		if($vars['node']->type=='biblio') 
 		{
-			//print_r($vars);
 			$vars['theme_hook_suggestions'][] = 'page__biblio';
-			return;
+			//drupal_add_js(path_to_theme().'/js/related_load.js');
 		}
 	}
 
 
 	if (isset($vars['node'])) :
-		//print $vars['node']->type;
         if($vars['node']->type == 'page'):
             $node = node_load($vars['node']->nid);
             $output = field_view_field('node', $node, 'field_show_page_title', array('label' => 'hidden'));
@@ -175,5 +210,4 @@ function getRelatedPosts($ntype,$nid){
 //custom main menu
 function heshel_menu_tree__main_menu(array $variables) {
 	return '<div class="sub-nav"><ul class="sub-menu">' . $variables['tree'] . '</ul></div>';
-		
 }

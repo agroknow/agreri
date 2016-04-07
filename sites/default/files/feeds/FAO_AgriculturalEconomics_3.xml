@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ags:resources xmlns:ags="http://purl.org/agmes/1.1/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:agls="http://www.naa.gov.au/recordkeeping/gov_online/agls/1.2" xmlns:dcterms="http://purl.org/dc/terms/">
+
+<ags:resource ags:ARN="XF2008440293">
+		<dc:title>
+			<dcterms:alternative>Have decollectivization and privatization contributed to sustainable forestry management and poverty alleviation in China?</dcterms:alternative>
+		</dc:title>
+		<dc:creator>
+			<ags:creatorPersonal>Liu, J.</ags:creatorPersonal>
+			<ags:creatorPersonal>Lixia, Z.</ags:creatorPersonal>
+			<ags:creatorCorporate>FAO, Rome (Italy). Forest Economics and Policy Div.</ags:creatorCorporate>
+			<ags:creatorCorporate>FOE</ags:creatorCorporate>
+		</dc:creator>
+		<dc:publisher>
+			<ags:publisherName>FAO</ags:publisherName>
+			<ags:publisherPlace>Rome (Italy)</ags:publisherPlace>
+		</dc:publisher>
+		<dc:date>
+			<dcterms:dateIssued>2009</dcterms:dateIssued>
+		</dc:date>
+		<dc:subject>
+			<ags:subjectClassification scheme="ags:ASC">K10</ags:subjectClassification>
+			<ags:subjectClassification scheme="ags:ASC">E50</ags:subjectClassification>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">FOREST MANAGEMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SUSTAINABLE DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">IMPACT ASSESSMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">AGRICULTURAL ECONOMICS</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="en">SOCIOECONOMIC DEVELOPMENT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">AMENAGEMENT FORESTIER</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT DURABLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">EVALUATION DE L'IMPACT</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">ECONOMIE AGRICOLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">DEVELOPPEMENT SOCIOECONOMIQUE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="fr">CHINE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ORDENACION FORESTAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO SOSTENIBLE</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">EVALUACION DEL IMPACTO</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">ECONOMIA AGRICOLA</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">DESARROLLO ECONOMICO Y SOCIAL</ags:subjectThesaurus>
+			<ags:subjectThesaurus scheme="ags:AGROVOC" xml:lang="es">CHINA</ags:subjectThesaurus>
+		</dc:subject>
+		<dc:description>
+			<ags:descriptionNotes>Summary (En)</ags:descriptionNotes>
+			<ags:descriptionNotes>diagrs., tables</ags:descriptionNotes>
+			<ags:descriptionNotes>E</ags:descriptionNotes>
+		</dc:description>
+		<dc:identifier scheme="dcterms:URI"><![CDATA[ftp://ftp.fao.org/docrep/fao/012/k5453e/k5453e00.pdf]]></dc:identifier>
+		<dc:identifier scheme="ags:JN">K5453</dc:identifier>
+		<dc:format>
+			<dcterms:extent>90 p.</dcterms:extent>
+		</dc:format>
+		<dc:language>English</dc:language>
+		<agls:availability>
+			<ags:availabilityLocation>FAO</ags:availabilityLocation>
+			<ags:availabilityNumber>440293</ags:availabilityNumber>
+		</agls:availability>
+		<agls:availability>
+			<ags:availabilityLocation>LIB;FOL</ags:availabilityLocation>
+			<ags:availabilityNumber><![CDATA[S238 188]]></ags:availabilityNumber>
+		</agls:availability>
+		<dc:coverage>
+			<dcterms:spatial scheme="ags:AGROVOC" xml:lang="en">CHINA</dcterms:spatial>
+		</dc:coverage>
+		<ags:citation>
+			<ags:citationTitle xml:lang="en">Forestry Policy and Institutions Working Paper (FAO)</ags:citationTitle>
+			<ags:citationNumber>no. 23</ags:citationNumber>
+		</ags:citation>
+	</ags:resource>
+</ags:resources> 

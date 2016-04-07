@@ -1,5 +1,4 @@
 <?php require_once(drupal_get_path('theme','heshel').'/tpl/header.tpl.php');
-
 global $base_url;
 drupal_set_title('');
 ?>

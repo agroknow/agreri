@@ -1,0 +1,72 @@
+--- apachesolr_biblio.module	26 Oct 2009 21:02:41 -0000
++++ apachesolr_biblio.module	23 Sep 2009 12:18:20 -0000	1.1
+@@ -40,7 +40,7 @@
+   return $fields;
+ }
+ 
+-// These are the fields as apachesolr_biblio knows about them.
++// These are the fields as apachesolr_biblio knows abouit them.
+ function apachesolr_biblio_get_fields() {
+   // get current settings
+   $result = db_query("SELECT * FROM {apachesolr_biblio_fields");
+@@ -49,7 +49,6 @@
+     $fields[$row['fid']] = $row;
+   }
+   $fields['contributors'] = variable_get('apachesolr_biblio_index_authors', 1);
+-  $fields['biblio_type'] = variable_get('apachesolr_biblio_index_biblio_type', 1);
+   return $fields;
+ }
+ 
+@@ -87,10 +86,6 @@
+       }
+     }
+   }
+-  // Handle publication types.
+-  if (variable_get('apachesolr_biblio_index_biblio_type', 1)) {
+-    $document->setField(apachesolr_biblio_type_key(), apachesolr_clean_text(apachesolr_biblio_type_name($node->biblio_type)));
+-  }
+ }
+ 
+ function apachesolr_biblio_format_value($value, $format) {
+@@ -139,26 +134,6 @@
+ }
+ 
+ /**
+- * Return the name of the specified biblio type.
+- */
+-function apachesolr_biblio_type_name($biblio_type) {
+-  return db_result(db_query('SELECT name FROM {biblio_types} WHERE tid = %d', $biblio_type));
+-}
+-
+-/**
+- * Return the index name for biblio types.
+- */
+-function apachesolr_biblio_type_key() {
+-  return apachesolr_index_key(
+-    array(
+-      'name' => 'biblio_type',
+-      'multiple' => FALSE,
+-      'index_type' => 'string',
+-    )
+-  );
+-}
+-
+-/**
+  * Implementation of hook_apachesolr_facets().
+  *
+  * Returns an array keyed by block delta.
+@@ -188,14 +163,6 @@
+       'facet_field' => 'sm_biblio_contributors',
+       'content types' => array('biblio'),
+     );
+-    // Publication types.
+-    $key = apachesolr_biblio_type_key();
+-    $facets[$key] = array(
+-      'info' => t('Biblio: Filter by Publication Type'),
+-      'name' => t('Publication Type'),
+-      'facet_field' => $key,
+-      'content types' => array('biblio'),
+-    );
+   }
+   return $facets;
+ }
